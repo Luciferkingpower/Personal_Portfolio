@@ -40,6 +40,10 @@ const Hero = () => {
 
   return (
     <section id="hero" className="relative text-slate-400 body-font h-screen  overflow-hidden">
+     <meta name="title" content="Ayush's Portfolio | Innovative Web Developer & IT Student" />
+        <meta name="description" content="Explore Ayush's portfolio, featuring modern web development, responsive design, and creative UI/UX projects. Discover high-quality code, interactive designs, and seamless digital experiences." />
+        <meta name="keywords" content="portfolio website, Ayush portfolio, web developer, IT student, modern web design, responsive design, user experience, UI/UX, Next.js, Tailwind CSS, CodewithLord, coding projects, web development portfolio, frontend developer portfolio, hire web developer" />
+        <meta name="author" content="Ayush" />
       {/* Background Video */}
       <video 
         className="absolute inset-0 object-cover w-full h-full" 
